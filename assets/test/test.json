@@ -1,0 +1,243 @@
+{
+flags: 0
+componentAdded: {
+	listeners: [
+		{
+			class: com.badlogic.ashley.core.Engine$ComponentListener
+		}
+	]
+}
+componentRemoved: {
+	listeners: [
+		{
+			class: com.badlogic.ashley.core.Engine$ComponentListener
+		}
+	]
+}
+scheduledForRemoval: false
+removing: false
+componentOperationHandler: {
+	delayed: {
+		class: com.badlogic.ashley.core.Engine$EngineDelayedInformer
+	}
+	operationPool: {
+		freeObjects: []
+	}
+	operations: []
+}
+components: {
+	data: [
+		{
+			class: com.gremlinprojects.projectB.ecs.components.RenderComponent
+			sprite: {
+				texture: {
+					glTarget: 3553
+					glHandle: 1
+					minFilter: Nearest
+					magFilter: Nearest
+					uWrap: ClampToEdge
+					vWrap: ClampToEdge
+					anisotropicFilterLevel: 1
+					data: {
+						class: com.badlogic.gdx.graphics.glutils.FileTextureData
+						file: {
+							class: com.badlogic.gdx.backends.lwjgl3.Lwjgl3FileHandle
+							file: {
+								path: images\\game.png
+							}
+							type: Internal
+						}
+						width: 128
+						height: 64
+						format: RGBA8888
+						pixmap: null
+						useMipMaps: false
+						isPrepared: false
+					}
+				}
+				u: 0.28125
+				v: 0.03125
+				u2: 0.53125
+				v2: 0.53125
+				regionWidth: 32
+				regionHeight: 32
+				vertices: [ 0, 0, -1.7014117E38, 0.28125, 0.53125, 0, 0, -1.7014117E38, 0.28125, 0.03125, 0, 0, -1.7014117E38, 0.53125, 0.03125, 0, 0, -1.7014117E38, 0.53125, 0.53125 ]
+				x: 100
+				y: 100
+				width: 32
+				height: 32
+			}
+			z: 1
+		}
+		{
+			class: com.gremlinprojects.projectB.ecs.components.tags.TagPlayer
+		}
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+		null
+	]
+	size: 2
+}
+componentsArray: [
+	{
+		class: com.gremlinprojects.projectB.ecs.components.RenderComponent
+		sprite: {
+			texture: {
+				glTarget: 3553
+				glHandle: 1
+				minFilter: Nearest
+				magFilter: Nearest
+				uWrap: ClampToEdge
+				vWrap: ClampToEdge
+				anisotropicFilterLevel: 1
+				data: {
+					class: com.badlogic.gdx.graphics.glutils.FileTextureData
+					file: {
+						class: com.badlogic.gdx.backends.lwjgl3.Lwjgl3FileHandle
+						file: {
+							path: images\\game.png
+						}
+						type: Internal
+					}
+					width: 128
+					height: 64
+					format: RGBA8888
+					pixmap: null
+					useMipMaps: false
+					isPrepared: false
+				}
+			}
+			u: 0.28125
+			v: 0.03125
+			u2: 0.53125
+			v2: 0.53125
+			regionWidth: 32
+			regionHeight: 32
+			vertices: [ 0, 0, -1.7014117E38, 0.28125, 0.53125, 0, 0, -1.7014117E38, 0.28125, 0.03125, 0, 0, -1.7014117E38, 0.53125, 0.03125, 0, 0, -1.7014117E38, 0.53125, 0.53125 ]
+			x: 100
+			y: 100
+			width: 32
+			height: 32
+		}
+		z: 1
+	}
+	{
+		class: com.gremlinprojects.projectB.ecs.components.tags.TagPlayer
+	}
+]
+immutableComponentsArray: {
+	array: [
+		{
+			class: com.gremlinprojects.projectB.ecs.components.RenderComponent
+			sprite: {
+				texture: {
+					glTarget: 3553
+					glHandle: 1
+					minFilter: Nearest
+					magFilter: Nearest
+					uWrap: ClampToEdge
+					vWrap: ClampToEdge
+					anisotropicFilterLevel: 1
+					data: {
+						class: com.badlogic.gdx.graphics.glutils.FileTextureData
+						file: {
+							class: com.badlogic.gdx.backends.lwjgl3.Lwjgl3FileHandle
+							file: {
+								path: images\\game.png
+							}
+							type: Internal
+						}
+						width: 128
+						height: 64
+						format: RGBA8888
+						pixmap: null
+						useMipMaps: false
+						isPrepared: false
+					}
+				}
+				u: 0.28125
+				v: 0.03125
+				u2: 0.53125
+				v2: 0.53125
+				regionWidth: 32
+				regionHeight: 32
+				vertices: [ 0, 0, -1.7014117E38, 0.28125, 0.53125, 0, 0, -1.7014117E38, 0.28125, 0.03125, 0, 0, -1.7014117E38, 0.53125, 0.03125, 0, 0, -1.7014117E38, 0.53125, 0.53125 ]
+				x: 100
+				y: 100
+				width: 32
+				height: 32
+			}
+			z: 1
+		}
+		{
+			class: com.gremlinprojects.projectB.ecs.components.tags.TagPlayer
+		}
+	]
+	iterable: null
+}
+componentBits: {
+	bits: [ 3 ]
+}
+familyBits: {
+	bits: [ 2 ]
+}
+}
